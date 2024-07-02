@@ -70,6 +70,7 @@
             lazy-rules
             hide-bottom-space
             v-model="loginPayload.password"
+            label="Password"
             :type="showPassword ? 'password' : 'text'"
             :rules="[(val) => !!val || 'Field is required']"
             color="primary"
@@ -105,6 +106,7 @@
             no-caps
             unelevated
             class="tw-w-full tw-rounded-[8px] tw-mt-5 tw-h-11"
+            @click="$router.push({ name: 'signup' })"
           />
           <q-btn
             color="secondary"
