@@ -1,6 +1,10 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header class="tw-bg-white tw-h-20">
+    <q-header :class="[$route.fullPath === '/signin'
+        ? 'md:tw-hidden'
+        : '',
+      'tw-bg-white tw-h-20'
+      ]">
       <q-toolbar class="tw-mt-2">
         <div class="row tw-justify-between tw-w-full">
           <q-img
@@ -49,6 +53,7 @@
                 no-caps
                 unelevated
                 class="tw-px-5 tw-h-11 tw-rounded-[8px] tw-ml-5"
+                @click="$router.push({ name: 'signin' })"
               />
             </div>
           </div>

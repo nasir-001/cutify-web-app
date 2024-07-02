@@ -61,3 +61,26 @@
   background-position: top;
   background-repeat: no-repeat;
 }
+
+.auth_background_hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/img/auth_hero.png");
+  background-size: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .auth_background_hero {
+    width: 100vw !important;
+    height: 40vh !important;
+    background-image: url("/assets/img/mobile_auth.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
