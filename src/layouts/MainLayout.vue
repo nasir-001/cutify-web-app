@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header :class="[$route.fullPath === '/signin' || $route.fullPath === '/signup'
+    <q-header reveal :class="[$route.fullPath === '/signin' || $route.fullPath === '/signup'
         ? 'md:tw-hidden'
         : '',
       'tw-bg-white tw-h-20'
