@@ -46,6 +46,7 @@
                 unelevated
                 outline
                 class="tw-px-5 tw-h-11 tw-rounded-[8px]"
+                @click="$router.push({ name: 'signup' })"
               />
               <q-btn
                 color="primary"
@@ -92,6 +93,25 @@
         <q-item to="/contact" clickable v-ripple>
           <q-item-section>Contact us</q-item-section>
         </q-item>
+        <div class="tw-ml-4">
+          <q-btn
+            color="primary"
+            label="Create account"
+            no-caps
+            unelevated
+            outline
+            class="tw-px-5 tw-h-11 tw-rounded-[8px]"
+            @click="$router.push({ name: 'signup' })"
+          />
+          <q-btn
+            color="primary"
+            label="Login"
+            no-caps
+            unelevated
+            class="tw-px-5 tw-h-11 tw-rounded-[8px] tw-ml-5"
+            @click="$router.push({ name: 'signin' })"
+          />
+        </div>
       </q-list>
     </q-drawer>
 
