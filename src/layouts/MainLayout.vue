@@ -120,12 +120,12 @@
     </q-page-container>
   </q-layout>
 
-  <PwaInstallPrompt />
+  <InstallPrompt />
 </template>
 
 <script setup>
+import InstallPrompt from 'src/components/InstallPrompt.vue'
 import { ref } from 'vue'
-import PwaInstallPrompt from '/src/components/PwaInstallPrompt.vue';
 
 const leftDrawerOpen = ref(false)
 
