@@ -119,10 +119,13 @@
       <router-view />
     </q-page-container>
   </q-layout>
+
+  <PwaInstallPrompt />
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import PwaInstallPrompt from '/src/components/PwaInstallPrompt.vue';
 
 const leftDrawerOpen = ref(false)
 
