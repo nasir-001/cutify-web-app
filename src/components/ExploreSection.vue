@@ -12,7 +12,7 @@
           </div>
           <div class="row tw-justify-between tw-mt-4">
             <div>
-              Have a service you want to onboard? <span class="text-primary tw-font-medium tw-cursor-pointer" @click="$router.push({ name: 'signup' })">Sign up as a professional</span>
+              Have a service you want to onboard? <br class="md:tw-hidden"> <span class="text-primary tw-font-medium tw-cursor-pointer" @click="$router.push({ name: 'signup' })">Sign up as a professional</span>
             </div>
             <div class="row tw-cursor-pointer">
               <div class="text-primary tw-font-medium">
@@ -23,14 +23,14 @@
               </div>
             </div>
           </div>
-          <div class="row tw-justify-between tw-mt-5">
-            <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
+          <div class="md:tw-flex tw-justify-between tw-mt-5">
+            <div class="md:tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
               <q-img
                 src="/assets/img/spa.png"
                 class="tw-h-52 tw-rounded-t-[8px]"
               />
               <div class="tw-px-4 tw-pt-6">
-                <div class="tw-text-lg tw-font-medium ">
+                <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                   MOJ Spa center
                 </div>
                 <div class="row tw-flex-nowrap tw-mt-6">
@@ -52,17 +52,17 @@
                 </div>
               </div>
             </div>
-            <div class="row tw-justify-between tw-w-[49%]">
+            <div class="row tw-justify-between tw-mt-6 md:tw-mt-0 md:tw-w-[49%]">
               <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/makeup2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
-                <div class="tw-px-4 tw-pt-6">
-                  <div class="tw-text-lg tw-font-medium ">
+                <div class="tw-px-1 md:tw-px-4 tw-pt-6">
+                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
-                  <div class="row tw-flex-nowrap tw-mt-6">
+                  <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
                     <q-icon size="1.5rem" name="svguse:/assets/svg/custom_svg.svg#location" />
                     <div>
                       No 26. St Ives street. Lagos island. Lagos.
@@ -86,11 +86,11 @@
                   src="/assets/img/massage2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
-                <div class="tw-px-4 tw-pt-6">
-                  <div class="tw-text-lg tw-font-medium ">
+                <div class="tw-px-1 md:tw-px-4 tw-pt-6">
+                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
-                  <div class="row tw-flex-nowrap tw-mt-6">
+                  <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
                     <q-icon size="1.5rem" name="svguse:/assets/svg/custom_svg.svg#location" />
                     <div>
                       No 26. St Ives street. Lagos island. Lagos.
@@ -111,18 +111,18 @@
               </div>
             </div>
           </div>
-          <div class="row tw-justify-between tw-mt-5">
-            <div class="row tw-justify-between tw-w-[49%]">
+          <div class="md:tw-flex tw-justify-between tw-mt-5">
+            <div class="row tw-justify-between md:tw-w-[49%]">
               <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/barber2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
-                <div class="tw-px-4 tw-pt-6">
-                  <div class="tw-text-lg tw-font-medium ">
+                <div class="tw-px-1 md:tw-px-4 tw-pt-6">
+                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
-                  <div class="row tw-flex-nowrap tw-mt-6">
+                  <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
                     <q-icon size="1.5rem" name="svguse:/assets/svg/custom_svg.svg#location" />
                     <div>
                       No 26. St Ives street. Lagos island. Lagos.
@@ -146,11 +146,11 @@
                   src="/assets/img/manucure.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
-                <div class="tw-px-4 tw-pt-6">
-                  <div class="tw-text-lg tw-font-medium ">
+                <div class="tw-px-1 md:tw-px-4 tw-pt-6">
+                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
-                  <div class="row tw-flex-nowrap tw-mt-6">
+                  <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
                     <q-icon size="1.5rem" name="svguse:/assets/svg/custom_svg.svg#location" />
                     <div>
                       No 26. St Ives street. Lagos island. Lagos.
@@ -170,16 +170,16 @@
                 </div>
               </div>
             </div>
-            <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
+            <div class="md:tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px] tw-mt-5 md:tw-mt-0">
               <q-img
                 src="/assets/img/salon.png"
                 class="tw-h-52 tw-rounded-t-[8px]"
               />
-              <div class="tw-px-4 tw-pt-6">
-                <div class="tw-text-lg tw-font-medium ">
+              <div class="tw-px-1 md:tw-px-4 tw-pt-6">
+                <div class="tw-text-base md:tw-text-lg tw-font-medium ">
                   MOJ Spa center
                 </div>
-                <div class="row tw-flex-nowrap tw-mt-6">
+                <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
                   <q-icon size="1.5rem" name="svguse:/assets/svg/custom_svg.svg#location" />
                   <div>
                     No 26. St Ives street. Lagos island. Lagos.

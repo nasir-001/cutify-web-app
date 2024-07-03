@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tw-w-screen tw-overflow-hidden">
     <HeroSection />
     <Categories />
     <ExploreSection />

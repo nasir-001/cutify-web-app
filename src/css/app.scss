@@ -99,6 +99,15 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 768px) {
+  .barber_hero_path {
+    width: 100vw !important;
+    background-image: url("/assets/img/path5.png");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+
 .reason_hero_path {
   background-image: url("/assets/img/path3.png");
   background-position: right;

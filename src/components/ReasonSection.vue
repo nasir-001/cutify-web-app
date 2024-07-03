@@ -6,8 +6,8 @@
           <div class="tw-text-center tw-text-3xl tw-font-semibold tw-h-16 reason_hero_path">
             Why Cutify service booking app <span class="text-primary">is perfect for you</span>
           </div>
-          <div class="row tw-justify-between tw-mt-12">
-            <div class="row tw-w-[50%]">
+          <div class="md:tw-flex tw-justify-between tw-mt-12">
+            <div class="row tw-flex-nowrap md:tw-w-[50%]">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/calendar_checked.svg"
@@ -26,7 +26,7 @@
                 </div>
               </div>
             </div>
-            <div class="row tw-w-[50%]">
+            <div class="row tw-flex-nowrap md:tw-w-[50%] tw-mt-8 md:tw-mt-0">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/corg.svg"
@@ -45,8 +45,8 @@
               </div>
             </div>
           </div>
-          <div class="row tw-justify-between tw-mt-12">
-            <div class="row tw-w-[50%]">
+          <div class="md:tw-flex tw-justify-between tw-mt-8 md:tw-mt-12">
+            <div class="row tw-flex-nowrap md:tw-w-[50%]">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/users.svg"
@@ -63,7 +63,7 @@
                 </div>
               </div>
             </div>
-            <div class="row tw-w-[50%]">
+            <div class="row tw-flex-nowrap md:tw-w-[50%] tw-mt-8 md:tw-mt-0">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/user.svg"
@@ -82,8 +82,8 @@
               </div>
             </div>
           </div>
-          <div class="row tw-justify-between tw-mt-12">
-            <div class="row tw-w-[50%]">
+          <div class="md:tw-flex tw-justify-between tw-mt-8 md:tw-mt-12">
+            <div class="row tw-flex-nowrap md:tw-w-[50%]">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/bell.svg"
@@ -101,7 +101,7 @@
                 </div>
               </div>
             </div>
-            <div class="row tw-w-[50%]">
+            <div class="row tw-flex-nowrap md:tw-w-[50%] tw-mt-8 md:tw-mt-0">
               <div class="tw-mr-4">
                 <q-img
                   src="/assets/svg/wallet.svg"

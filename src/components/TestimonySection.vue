@@ -1,13 +1,13 @@
 <template>
-  <div class="testimony_hero tw-mt-56">
+  <div class="testimony_hero tw-mt-56 tw-pb-24">
     <div class="row tw-justify-center">
-      <div class="col-11 col-lg-11 col-xl-10 tw-p-12 tw-bg-[#f8fcfe] tw-rounded-2xl -tw-mt-36 tw-relative">
+      <div class="col-12 col-lg-11 col-xl-10 tw-p-12 tw-bg-[#f8fcfe] tw-rounded-2xl -tw-mt-36 tw-relative">
         <div class="tw-absolute tw-right-10 tw-top-10">
           <q-icon size="xl" class="" name="img:/assets/svg/qoute.svg" />
         </div>
-        <div class="row tw-justify-between">
+        <div class="row tw-justify-center md:tw-justify-between">
           <div class="">
-            <div class="tw-text-4xl tw-font-semibold">
+            <div class="tw-text-2xl md:tw-text-4xl tw-font-semibold">
               What people are <br>
               saying about us?
             </div>
@@ -17,7 +17,7 @@
               experiences.
             </div>
           </div>
-          <div class="tw-mt-16">
+          <div class="md:tw-mt-16">
             <div class="card tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
               <div>
                 I love how convenient it is to book <br>
@@ -55,7 +55,7 @@
             <div class="row tw-ml-9 tw-mt-2">
               <div>
                 <q-img
-                  src="/assets/img/avatar.png"
+                  src="/assets/img/avatar2.png"
                   class="tw-w-10 tw-h-10"
                 />
               </div>

@@ -1,5 +1,5 @@
 <template>
-  <div :class="[$route.fullPath !== '/' ? ' tw-mt-24' : '', 'tw-bg-[#4991b8] tw-w-full']">
+  <div :class="[$route.fullPath !== '/' ? 'tw-mt-24' : '', 'tw-bg-[#4991b8] tw-w-full']">
     <div class="row tw-justify-center tw-py-12">
       <div class="col-lg-10 col-xl-9 tw-border-b tw-border-[#d3d3d4] tw-pb-12">
         <div class="md:tw-flex tw-justify-evenly">
