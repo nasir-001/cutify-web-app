@@ -66,7 +66,7 @@ module.exports = configure(function (/* ctx */) {
 
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
-
+      distDir: ctx.mode.pwa ? 'dist' : null,
       vitePlugins: [
         ['vite-plugin-checker', {
           eslint: {
