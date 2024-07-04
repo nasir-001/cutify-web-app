@@ -43,7 +43,7 @@
                   type="text"
                   placeholder="Search for service. E.g Braids"
                   dense borderless
-                  class="tw-w-80 -tw-mt-2 tw-ml-3"
+                  class="xl:tw-w-80 -tw-mt-2 tw-ml-3"
                 />
               </div>
             </div>
@@ -55,27 +55,27 @@
             />
           </div>
           <div class="row tw-flex-nowrap tw-justify-center tw-mt-6">
-            <div class="row tw-flex-nowrap tw-mt-2 tw-ml-3 tw-bg-[#f1e8db] tw-px-2 md:tw-px-4 tw-py-2 tw-rounded-md">
+            <div class="row tw-flex-nowrap tw-mt-2 tw-bg-[#f1e8db] tw-px-2 md:tw-px-4 tw-py-2 tw-rounded-md">
               <q-icon size="1.5rem" name="img:/assets/svg/search.svg" />
-              <div class="tw-pl-2 tw-text-xs md:tw-text-sm">
+              <div class="tw-pl-1 tw-pt-1 md:tw-pt-0 md:tw-pl-2 tw-text-[10px] md:tw-text-sm">
                 Hair salon
               </div>
             </div>
             <div class="row tw-flex-nowrap tw-mt-2 tw-ml-3 tw-bg-[#f1e8db] tw-px-2 md:tw-px-4 tw-py-2 tw-rounded-md">
               <q-icon size="1.5rem" name="img:/assets/svg/search.svg" />
-              <div class="tw-pl-2 tw-text-xs md:tw-text-sm">
+              <div class="tw-pl-1 tw-pt-1 md:tw-pt-0 md:tw-pl-2 tw-text-[10px] md:tw-text-sm">
                 Knotless braids
               </div>
             </div>
             <div class="row tw-flex-nowrap tw-mt-2 tw-ml-3 tw-bg-[#f1e8db] tw-px-2 md:tw-px-4 tw-py-2 tw-rounded-md">
               <q-icon size="1.5rem" name="img:/assets/svg/search.svg" />
-              <div class="tw-pl-2 tw-text-xs md:tw-text-sm">
+              <div class="tw-pl-1 tw-pt-1 md:tw-pt-0 md:tw-pl-2 tw-text-[10px] md:tw-text-sm">
                 Hair treatment
               </div>
             </div>
           </div>
           <div class="tw-mt-12">
-            <div class="row tw-mx-6 md:tw-mx-0 tw-justify-between">
+            <div class="row tw-mx-6 xl:tw-mx-0 tw-justify-between">
               <div class="tw-text-2xl tw-text-white tw-font-medium">
                 Categories
               </div>
@@ -88,38 +88,38 @@
                 </div>
               </div>
             </div>
-            <div class="row tw-justify-center md:tw-justify-between tw-mt-6">
-              <div>
+            <div class="row tw-justify-center xl:tw-justify-between tw-mt-6">
+              <div class="md:tw-mx-4 xl:tw-mx-0">
                 <q-img
                   src="/assets/img/dryer.png"
-                  class="tw-w-80 md:tw-w-64 tw-rounded-lg"
+                  class="tw-w-80 md:tw-w-56 xl:tw-w-64 tw-rounded-lg"
                 />
                 <div class="tw-text-lg tw-text-center tw-text-white">
                   Hair
                 </div>
               </div>
-              <div>
+              <div class="md:tw-mx-4 xl:tw-mx-0">
                 <q-img
                   src="/assets/img/barber2.png"
-                  class="tw-w-80 md:tw-w-64 tw-rounded-lg"
+                  class="tw-w-80 md:tw-w-56 xl:tw-w-64 tw-rounded-lg"
                 />
                 <div class="tw-text-lg tw-text-center tw-text-white">
                   Barbing Salon
                 </div>
               </div>
-              <div>
+              <div class="md:tw-mx-4 xl:tw-mx-0">
                 <q-img
                   src="/assets/img/massage.png"
-                  class="tw-w-80 md:tw-w-64 tw-rounded-lg"
+                  class="tw-w-80 md:tw-w-56 xl:tw-w-64 tw-rounded-lg"
                 />
                 <div class="tw-text-lg tw-text-center tw-text-white">
                   Spa
                 </div>
               </div>
-              <div>
+              <div class="md:tw-mx-4 xl:tw-mx-0">
                 <q-img
                   src="/assets/img/gym.png"
-                  class="tw-w-80 md:tw-w-64 tw-rounded-lg"
+                  class="tw-w-80 md:tw-w-56 xl:tw-w-64 tw-rounded-lg"
                 />
                 <div class="tw-text-lg tw-text-center tw-text-white">
                   Gym center

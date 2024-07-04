@@ -1,28 +1,28 @@
 <template>
   <div class="testimony_hero tw-mt-56 tw-pb-24">
     <div class="row tw-justify-center">
-      <div class="col-12 col-lg-11 col-xl-10 tw-p-12 tw-bg-[#f8fcfe] tw-rounded-2xl -tw-mt-36 tw-relative">
+      <div class="col-12 col-lg-11 col-xl-10 tw-p-6 md:tw-p-4 xl:tw-p-12 tw-bg-[#f8fcfe] tw-rounded-2xl -tw-mt-36 tw-relative">
         <div class="tw-absolute tw-right-10 tw-top-10">
           <q-icon size="xl" class="" name="img:/assets/svg/qoute.svg" />
         </div>
-        <div class="row tw-justify-center md:tw-justify-between">
-          <div class="">
-            <div class="tw-text-2xl md:tw-text-4xl tw-font-semibold">
-              What people are <br>
+        <div class="row tw-flex-nowrap tw-justify-center md:tw-justify-between">
+          <div class="tw-w-[27%]">
+            <div class="tw-text-2xl xl:tw-text-4xl tw-font-semibold">
+              What people are <br class="tw-hidden xl:tw-block">
               saying about us?
             </div>
-            <div class="tw-mt-2 tw-text-lg testimony_path">
-              Check out what customers and professionals <br>
-              are happily sharing about their Cutify <br>
+            <div class="tw-mt-2 xl:tw-text-lg testimony_path">
+              Check out what customers and professionals <br class="tw-hidden xl:tw-block">
+              are happily sharing about their Cutify <br class="tw-hidden xl:tw-block">
               experiences.
             </div>
           </div>
-          <div class="md:tw-mt-16">
-            <div class="card tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
-              <div>
-                I love how convenient it is to book <br>
-                my favorite spa treatments through <br>
-                this platform. The service providers <br>
+          <div class="md:tw-mt-20">
+            <div class="card tw-w-72 md:tw-w-52 xl:tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
+              <div class="tw-text-sm md:tw-text-xs xl:tw-text-xs">
+                I love how convenient it is to book <br class="tw-hidden xl:tw-block">
+                my favorite spa treatments through <br class="tw-hidden xl:tw-block">
+                this platform. The service providers <br class="tw-hidden xl:tw-block">
                 are top-notch!
               </div>
             </div>
@@ -43,12 +43,12 @@
               </div>
             </div>
           </div>
-          <div class="tw-mt-16">
-            <div class="card tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
-              <div>
-                I love how convenient it is to book <br>
-                my favorite spa treatments through <br>
-                this platform. The service providers <br>
+          <div class="md:tw-mt-20">
+            <div class="card tw-w-72 md:tw-w-52 xl:tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
+              <div class="tw-text-sm md:tw-text-xs xl:tw-text-xs">
+                I love how convenient it is to book <br class="tw-hidden xl:tw-block">
+                my favorite spa treatments through <br class="tw-hidden xl:tw-block">
+                this platform. The service providers <br class="tw-hidden xl:tw-block">
                 are top-notch!
               </div>
             </div>
@@ -69,12 +69,12 @@
               </div>
             </div>
           </div>
-          <div class="tw-mt-16">
-            <div class="card tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
-              <div>
-                I love how convenient it is to book <br>
-                my favorite spa treatments through <br>
-                this platform. The service providers <br>
+          <div class="md:tw-mt-20">
+            <div class="card tw-w-72 md:tw-w-52 xl:tw-w-64 tw-px-4 tw-py-8 tw-h-44 tw-border tw-rounded-t-lg tw-rounded-br-lg">
+              <div class="tw-text-sm md:tw-text-xs xl:tw-text-xs">
+                I love how convenient it is to book <br class="tw-hidden xl:tw-block">
+                my favorite spa treatments through <br class="tw-hidden xl:tw-block">
+                this platform. The service providers <br class="tw-hidden xl:tw-block">
                 are top-notch!
               </div>
             </div>

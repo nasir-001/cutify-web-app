@@ -6,7 +6,7 @@
           <div class="tw-text-3xl tw-font-medium">
             Explore popular service on Cutify
           </div>
-          <div class="tw-text-base tw-pt-4">
+          <div class="tw-pt-4">
             Check our top-rated services for an exceptional beauty and wellness experience. From relaxing spa <br>
             treatments to expert styling.
           </div>
@@ -30,7 +30,7 @@
                 class="tw-h-52 tw-rounded-t-[8px]"
               />
               <div class="tw-px-4 tw-pt-6">
-                <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                <div class="md:tw-text-lg tw-font-medium ">
                   MOJ Spa center
                 </div>
                 <div class="row tw-flex-nowrap tw-mt-6">
@@ -53,13 +53,13 @@
               </div>
             </div>
             <div class="row tw-justify-between tw-mt-6 md:tw-mt-0 md:tw-w-[49%]">
-              <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
+              <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/makeup2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
                 <div class="tw-px-1 md:tw-px-4 tw-pt-6">
-                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                  <div class="md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
                   <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
@@ -81,13 +81,13 @@
                   </div>
                 </div>
               </div>
-              <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
+              <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/massage2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
                 <div class="tw-px-1 md:tw-px-4 tw-pt-6">
-                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                  <div class="md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
                   <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
@@ -113,13 +113,13 @@
           </div>
           <div class="md:tw-flex tw-justify-between tw-mt-5">
             <div class="row tw-justify-between md:tw-w-[49%]">
-              <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
+              <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/barber2.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
                 <div class="tw-px-1 md:tw-px-4 tw-pt-6">
-                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                  <div class="md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
                   <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
@@ -141,13 +141,13 @@
                   </div>
                 </div>
               </div>
-              <div class="tw-w-[48%] tw-h-96 tw-border tw-rounded-[8px]">
+              <div class="tw-w-[49%] tw-h-96 tw-border tw-rounded-[8px]">
                 <q-img
                   src="/assets/img/manucure.png"
                   class="tw-h-52 tw-rounded-t-[8px]"
                 />
                 <div class="tw-px-1 md:tw-px-4 tw-pt-6">
-                  <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                  <div class="md:tw-text-lg tw-font-medium ">
                     Hollaja MakeUp studio
                   </div>
                   <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">
@@ -176,7 +176,7 @@
                 class="tw-h-52 tw-rounded-t-[8px]"
               />
               <div class="tw-px-1 md:tw-px-4 tw-pt-6">
-                <div class="tw-text-base md:tw-text-lg tw-font-medium ">
+                <div class="md:tw-text-lg tw-font-medium ">
                   MOJ Spa center
                 </div>
                 <div class="row tw-flex-nowrap tw-mt-2 md:tw-mt-6">

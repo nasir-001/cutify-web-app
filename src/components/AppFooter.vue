@@ -84,8 +84,8 @@
               <div class="tw-text-white tw-font-medium">
                 Subscribe to our newsletter to get updates from us.
               </div>
-              <div class="row tw-mt-4">
-                <div class="tw-bg-white tw-px-2 tw-w-64">
+              <div class="row tw-flex-nowrap tw-mt-4">
+                <div class="tw-bg-white tw-px-2 md:tw-w-64">
                   <q-input
                     v-model="email"
                     type="text"

@@ -3,7 +3,7 @@
     <div class="row tw-justify-center">
       <div class="col-11 col-lg-10 col-xl-9">
         <div>
-          <div class="tw-text-center tw-text-3xl tw-font-semibold tw-h-16 reason_hero_path">
+          <div class="tw-text-center tw-text-2xl md:tw-text-3xl tw-font-semibold tw-h-16 reason_hero_path">
             Why Cutify service booking app <span class="text-primary">is perfect for you</span>
           </div>
           <div class="md:tw-flex tw-justify-between tw-mt-12">

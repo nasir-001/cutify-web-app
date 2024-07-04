@@ -12,7 +12,7 @@
             class="tw-w-20 tw-cursor-pointer"
             @click="$router.push('/')"
           />
-          <div class="tw-hidden md:tw-flex tw-justify-evenly tw-mt-4 tw-text-base tw-font-medium tw-text-black tw-w-[50%]">
+          <div class="tw-hidden md:tw-flex tw-justify-evenly tw-mt-4 tw-text-base tw-font-medium tw-text-black tw-w-[90%] xl:tw-w-[50%]">
             <div :class="[$route.fullPath === '/' ? 'text-primary tw-underline' : '', 'tw-cursor-pointer']"
               @click="$router.push('/')"
             >

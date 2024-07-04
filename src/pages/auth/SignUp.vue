@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="tw-w-screen md:tw-w-[60%] tw-h-screen tw-overflow-y-auto tw-pb-12">
+    <div class="tw-w-screen md:tw-w-[60%] md:tw-h-screen tw-overflow-y-auto tw-pb-12">
       <div class="tw-w-[90%] md:tw-w-[60%] tw-mx-auto tw-mt-12 tw-border tw-border-[#d3d3d4] tw-rounded-[8px] tw-py-8 tw-px-6">
         <div class="tw-text-3xl tw-font-semibold">
           Sign up as a customer
@@ -27,21 +27,21 @@
             color="grey-4"
             outline
             icon="img:/assets/img/google.png"
-            class="tw-rounded-xl tw-h-12 tw-mx-6"
+            class="tw-rounded-xl tw-h-12 tw-mx-1 md:tw-mx-6"
             size="sm"
           />
           <q-btn
             color="grey-4"
             outline
             icon="img:/assets/img/facebook.png"
-            class="tw-rounded-xl tw-h-12 tw-mx-6"
+            class="tw-rounded-xl tw-h-12 tw-mx-1 md:tw-mx-6"
             size="sm"
           />
           <q-btn
             color="grey-4"
             outline
             icon="img:/assets/img/apple.png"
-            class="tw-rounded-xl tw-h-12 tw-mx-6"
+            class="tw-rounded-xl tw-h-12 tw-mx-1 md:tw-mx-6"
             size="sm"
           />
         </div>
@@ -186,7 +186,7 @@
               </div>
             </div>
           </div>
-          <div class="row tw-mt-4">
+          <div class="row tw-flex-nowrap tw-mt-4">
             <q-checkbox v-model="remember"/>
             <div class="tw-text-xs tw-pt-3">
               By registering you are agreeing to our <span class="text-primary">Terms of use</span> and <span class="text-primary">Privacy Policy</span>

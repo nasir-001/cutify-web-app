@@ -13,7 +13,7 @@
       />
     </div>
     <div class="row tw-justify-center">
-      <div class="col-12 tw-mx-4 md:tw-mx-0 col-lg-10 col-xl-9">
+      <div class="col-12 col-sm-11 tw-mx-4 md:tw-mx-0 col-lg-10 col-xl-9">
         <div>
           <div class="row tw-justify-between tw-w-full md:tw-mt-12">
             <q-img
